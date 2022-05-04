@@ -65,6 +65,8 @@ The authors of [[1]](#1) reported that they observed the validation loss going u
 
 But once we switched to the better data, we saw a massive improvement in our training process and validation loss. It seems that the learning is greatly impacted by the quality of the dataset. In fact, the validation loss was still decreasing around epoch 50, and so it may be possible squeeze further accuracy out by training more.
 
+If you found this repository useful, please consider citing. Thank you!
+
 #### Note
 Most of the experiments were run on colab, and the conversion to a GitHub repo-style format for the code was done post-facto. I did verify that the functions run on my laptop (wherein the GPU won't be recognized by pytorch), but due to the above fact, some errors may have crept in. If you find any, I would love to hear from you and fix them ASAP.
 
