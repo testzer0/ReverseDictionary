@@ -1,4 +1,4 @@
-#Reverse Dictionary + High Quality Dataset
+# Reverse Dictionary + High Quality Dataset
 This repository contains the source code of the **Reverse Dictionary** built by my team as part of the CS 772 (NLP) course project at IIT Bombay.
 Another major **contribution** is the introduction of a **novel high quality dataset** of 89930 high quality (word, definition) pairs using **vocabulary.com**.
 While this work and its key ideas were motivated independently of [[1]](#1),  we did benefit greatly from the commentary and pointers contained therein, and share some similairities with them. We also use [[1]](#1) as the main point of comparison.
