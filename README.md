@@ -24,7 +24,7 @@ Run `pip -r requirements.txt` to install the necessary packages. Then, run `pyth
 To see the word for a definition, run `python main.py --defn <the definition>`, or `python main.py --file <file with defn>` if you prefer to feed it from a file. The `--top` flag can be used to ask for the top `k` words. An example run I obtained was
 ```
 $ python3 main.py --def "A formal speech praising someone highly" --top 5
-<- Some debug messaged by pytorch about how a GPU wasn't found on my laptop ->
+<- Some debug messages by pytorch about how a GPU wasn't found on my laptop ->
 1. encomium
 2. paean
 3. admonition
@@ -48,7 +48,7 @@ import pickle
 dictionary = pickle.load(open('data/unix-dictionary.pkl', 'rb'))['dictionary']
 ```
 Then, `dictionary` is a list of tuples of the form (word, definition).
-We used a train-validation-loss split of 90-6-4.
+We used a train-validation-test split of 90-6-4.
 ## Model and Loss Function
 <img src="assets/model.png" alt="Image Not Found" width="800"/> 
 
