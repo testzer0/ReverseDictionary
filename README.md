@@ -2,6 +2,12 @@
 This repository contains the source code of the **Reverse Dictionary** built by my team as part of the CS 772 (NLP) course project at IIT Bombay.
 Another major **contribution** is the introduction of a **novel high quality dataset** of 89930 high quality (word, definition) pairs using **vocabulary.com**.
 While this work and its key ideas were motivated independently of [[1]](#1),  we did benefit greatly from the commentary and pointers contained therein, and share some similairities with them. We also use [[1]](#1) as the main point of comparison.
+## **Note**
+This repository uses `git lfs` to store model checkpoints and part of the dataset, due to which specific files have been replaced by pointers to the `git lfs` objects. Thus, after cloning, run
+```
+git lfs pull
+```
+to pull the actual data files.
 ## Project Structure
 The work was done mainly using a Colab Notebook, and one of the final versions can be found in the `notebook/` directory. This repository is the conversion of the same into a "non-ipynb" form. Specifically,
 - The `checkpoints/` directory contains the checkpoints of our model. We only upload the last checkpoint in the interest of space.
